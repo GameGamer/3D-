@@ -29,6 +29,6 @@ while not done:
     pygame.draw.rect(screen, dark_red, pygame.Rect(1560, 80, 300, 60))
     pygame.draw.rect(screen, dark_red, pygame.Rect(1560, 940, 300, 60))
     pygame.draw.rect(screen, dark_red, pygame.Rect(60, 940, 300, 60))
-    pygame.draw.rect(screen, dark_red, pygame.Rect(lenth/2-250, high/2-150, 60, 300))
-    pygame.draw.rect(screen, dark_red, pygame.Rect(lenth/2+250, high/2-150, 60, 300))
+    pygame.draw.rect(screen, dark_red, pygame.Rect(lenth/2-300, high/2-150, 60, 300))
+    pygame.draw.rect(screen, dark_red, pygame.Rect(lenth/2+300, high/2-150, 60, 300))
     pygame.display.update()
